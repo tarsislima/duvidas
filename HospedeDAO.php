@@ -38,15 +38,6 @@ class HospedeDAO{
 
 			$result = $p_sql->fetch();
 
-			echo $result['nome'];
-			echo "<br>";
-			echo $result['cpfhospede'];
-			echo "<br>";
-			echo $result['telefone'];
-			echo "<br>";
-			echo $result['sexo'];
-
-
 			return $result;
 
 
